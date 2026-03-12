@@ -1,0 +1,1 @@
+"""GitGallery application package."""
