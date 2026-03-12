@@ -2,6 +2,36 @@
 
 **GitGallery** is a desktop application that lets you store and manage photos using your own GitHub repositories as storage. All data stays in your account; the app does not host or store your photos remotely.
 
+## Important: Use Private Repositories
+
+GitGallery stores images directly inside GitHub repositories.  
+To keep your photos private, **you should always use a PRIVATE repository**.
+
+If you upload images to a **public repository**, those images will be publicly accessible on GitHub and can be viewed or downloaded by anyone.
+
+Recommended workflow:
+
+1. Create a **private repository** on GitHub.
+2. Connect your account through the GitGallery OAuth flow.
+3. Select or create the **private repository** when storing images.
+
+GitGallery **does not encrypt images in V1**, therefore repository visibility is the primary mechanism controlling access to your photos.
+
+## Disclaimer
+
+GitGallery is a **personal project created for educational and experimental purposes**.
+
+This software is provided **as-is**, without any guarantees regarding security, reliability, or data protection.
+
+By using this project, you acknowledge that:
+
+- GitGallery is not intended to be a production-grade secure storage system.
+- Sensitive or confidential data should not be stored using this application.
+- Repository privacy settings on GitHub determine who can access uploaded images.
+- The author assumes no responsibility for data loss, exposure, or misuse resulting from the use of this software.
+
+Users are responsible for managing their GitHub repositories, privacy settings, and account security.
+
 ## Features (V1)
 
 - **Connect GitHub** — Sign in with GitHub OAuth (no passwords stored).
